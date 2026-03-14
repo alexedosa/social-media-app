@@ -1,0 +1,57 @@
+# Virtual environment
+venv/
+env/
+virtualenv/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Databases
+db.sqlite3
+*.sqlite3
+*.log
+
+# Media and Static files (generated/uploaded)
+media/
+static_root/
+staticfiles/
+
+# Django-specific files
+local_settings.py
+.env # Environment variables file should not be committed
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+release/
+runtime/
+shells/
