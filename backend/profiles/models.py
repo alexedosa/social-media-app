@@ -3,7 +3,6 @@ from django.conf import settings
 # Create your models here.
 
 class Profile(models.Model):
-    # Use 'profile' (singular) for the related_name
     user = models.OneToOneField(
         settings.AUTH_USER_MODEL, 
         related_name='profile', 
